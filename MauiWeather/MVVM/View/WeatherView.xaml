@@ -8,5 +8,12 @@
             <Frame />
             <SearchBar Placeholder="Search" VerticalOptions="Center"/>
         </Grid>
+
+        <VerticalStackLayout Grid.Row="1">
+            <Label Text="Paris" />
+            <Label Text="Date here" />
+        </VerticalStackLayout>
+
+
     </Grid>
 </ContentPage>

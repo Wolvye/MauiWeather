@@ -3,4 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" >
 
 
+
+    <Style x:Key="MainStackLayout" TargetType="VerticalStackLayout">
+        <Setter Property="Margin" Value="0,10,0,0" />
+        <Setter Property="Spacing" Value="15" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
 </ResourceDictionary>
