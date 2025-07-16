@@ -9,4 +9,39 @@
         <Setter Property="Spacing" Value="15" />
         <Setter Property="VerticalOptions" Value="Center" />
     </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource White}" />
+        <Setter Property="FontFamily" Value="RubikRegular" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
+    <Style x:Key="Title" TargetType="Label" >
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="Large"/>
+
+    </Style>
+
+    <Style x:Key="WeatherTitle" TargetType="Label">
+        <Setter Property="FontFamily" Value="RubikLight" />
+        <Setter Property="TextColor" Value="White" />
+    </Style>
+
+    <Style x:Key="WeatherValue" TargetType="Label">
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="TextColor" Value="White" />
+    </Style>
+
+    <Style x:Key="card" TargetType="Frame">
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="BackgroundColor" Value="{StaticResource CardBlue}" />
+        <Setter Property="BorderColor" Value="Transparent" />
+        <Setter Property="CornerRadius" Value="25" />
+        <Setter Property="HeightRequest" Value="150" />
+        <Setter Property="WidthRequest" Value="150" />
+        <Setter Property="Opacity" Value=".85" />
+
+    </Style>
+
 </ResourceDictionary>
